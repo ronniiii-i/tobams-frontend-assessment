@@ -3,6 +3,7 @@
 :root {
   /* Sourced directly from the figma design */
   --purple: #571244;
+  --purple-100: #5712441A;
   --pink: #EF4353;
   --black: #151515;
   --grey: #696969;
@@ -15,6 +16,7 @@
 
 @theme inline {
   --color-purple: var(--purple);
+  --color-purple-100: var(--purple-100);
   --color-pink: var(--pink);
   --color-black: var(--black);
   --color-grey: var(--grey);
@@ -25,4 +27,13 @@
   --color-footer-border: var(--footer-border);
   --font-nunito: var(--font-nunito), sans-serif;
   --font-nunito-sans: var(--font-nunito-sans), sans-serif;
+}
+
+/* custom css declared to avoid repitition in tailwind inline styling */
+body {
+  font-family: var(--font-nunito-sans);
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: var(--font-nunito);
 }
