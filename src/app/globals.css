@@ -3,6 +3,7 @@
 :root {
   /* Sourced directly from the figma design */
   --purple: #571244;
+  --dark-purple: #2C0922;
   --purple-100: #5712441A;
   --pink: #EF4353;
   --black: #151515;
@@ -16,6 +17,7 @@
 
 @theme inline {
   --color-purple: var(--purple);
+  --color-dark-purple: var(--dark-purple);
   --color-purple-100: var(--purple-100);
   --color-pink: var(--pink);
   --color-black: var(--black);
