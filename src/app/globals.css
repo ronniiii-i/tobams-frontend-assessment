@@ -3,9 +3,11 @@
 :root {
   /* Sourced directly from the figma design */
   --purple: #571244;
+  --light-purple: #DDD0DA;
   --dark-purple: #2C0922;
   --purple-100: #5712441A;
   --pink: #EF4353;
+  --pink-200: #EF435333;
   --black: #151515;
   --grey: #696969;
   --purple-background: #8F6182;
@@ -18,9 +20,11 @@
 
 @theme inline {
   --color-purple: var(--purple);
+  --color-light-purple: var(--light-purple);
   --color-dark-purple: var(--dark-purple);
   --color-purple-100: var(--purple-100);
   --color-pink: var(--pink);
+  --color-pink-200: var(--pink-200);
   --color-black: var(--black);
   --color-grey: var(--grey);
   --color-purple-background: var(--purple-background);
