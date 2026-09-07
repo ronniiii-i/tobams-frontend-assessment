@@ -82,7 +82,7 @@ src/
 
 ### 1. Dry Typography Architecture
 
-A thorough review of the Figma typography revealed a specific pattern: headers (`h1` through `h6`) exclusively use **Nunito**, while body copy and general layout items utilize **Nunito Sans**. 
+A thorough review of the Figma typography revealed a specific pattern: headers (`h1` through `h6`) exclusively use **Nunito**, while body copy and general layout items utilize **Nunito Sans**.
 
 Rather than repeating Tailwind font utility classes (`font-nunito` / `font-nunito-sans`) on every header and element, a clean global CSS structure was established in `src/app/globals.css`:
 
@@ -102,6 +102,7 @@ This minimizes repetitive Tailwind code, keeps component files cleaner, and cent
 
 While maintaining precise fidelity to the static layouts, several high-value interaction additions were implemented to elevate the project to production-ready standard:
 
+* **Sticky Header Navigation (Usability Assumption):** The Figma layout did not explicitly specify navigation bar behavior during vertical scrolling. To ensure professional usability, a persistent, hardware-accelerated sticky header (`sticky top-0 z-50`) was implemented. This allows visitors to navigate the site seamlessly from any section without needing to scroll back to the top of the viewport.
 * **Functional Mobile Menu (UX Enhancement):** The Figma design only presents a hamburger icon, with no active state or mobile navigation menu guidelines. To maintain brand consistency, the official Tobams Group site structure was analyzed, and an elegant, responsive mobile navigation overlay was built. As a best practice tweak, the burger icon transitions seamlessly into a functional **"X" Close** icon when the drawer is active, making mobile navigation highly intuitive.
 * **Micro-interactions & Visual Polish:** Smooth hover states (`transition-colors`, `hover:text-pink`) were added to the complex footer links, header navigation items, and action buttons. This provides visual polish and tactile interactivity, which significantly improves the end-user experience (UX).
 
