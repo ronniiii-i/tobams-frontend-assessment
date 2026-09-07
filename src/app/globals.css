@@ -10,6 +10,7 @@
   --pink-200: #EF435333;
   --black: #151515;
   --grey: #696969;
+  --light-grey: #F8F8F8;
   --purple-background: #8F6182;
   --pink-background: #F043541A;
   --blue: #1671D9;
@@ -27,6 +28,7 @@
   --color-pink-200: var(--pink-200);
   --color-black: var(--black);
   --color-grey: var(--grey);
+  --color-light-grey: var(--light-grey);
   --color-purple-background: var(--purple-background);
   --color-pink-background: var(--pink-background);
   --color-blue: var(--blue);
