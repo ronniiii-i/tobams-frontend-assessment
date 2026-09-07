@@ -1,6 +1,5 @@
 import Image from "next/image";
 import ArrowUpIcon from "./UI/ArrowUpIcon";
-import ListIcon from "./UI/ListIcon";
 
 export default function TransformationHub() {
   const topics = [

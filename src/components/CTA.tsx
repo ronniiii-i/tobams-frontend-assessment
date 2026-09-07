@@ -1,6 +1,6 @@
 function CTA() {
   return (
-    <section>
+    <section className="my-10">
       <div className="bg-purple w-9/10 xl:w-4/5 my-2 sm:my-3 lg:my-4 mx-auto rounded-lg py-8 px-6 sm:px-10 lg:px-16 flex flex-col items-center justify-center text-white gap-6 sm:gap-7 lg:gap-8 font-semibold">
         <h4 className="text-center hidden lg:text-xl lg:block tracking-[3%] leading-[150%]">
           Want to accelerate professional growth and development at your
